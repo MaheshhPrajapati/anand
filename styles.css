@@ -80,7 +80,7 @@ body nav h1 {
 }
 
 body .landing {
-  background: rgba(24, 23, 23, 0.75) url("./img/4aaa238694e4baab66f1a854159604b2.jpg") center;
+  background: rgba(24, 23, 23, 0.75) url("./img/background.jpg") center;
   background-size: cover;
   background-blend-mode: darken;
   height: 80vh;
