@@ -266,6 +266,9 @@ body .footer {
   body .content_section .services-offered h2 {
     font-size: 2rem;
   }
+  body .content_section .form {
+    margin: 2rem 4rem;
+  }
   body .contact_shotcut {
     padding: 0 2rem;
   }
