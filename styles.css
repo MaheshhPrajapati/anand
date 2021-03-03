@@ -151,10 +151,36 @@ body .content_section h1 {
   font-size: 2.5rem;
 }
 
+body .content_section .image {
+  height: 180px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem auto;
+}
+
+body .content_section .image img {
+  margin: auto;
+  height: inherit;
+  border: 10px solid #00AAEE;
+  border-radius: 50%;
+}
+
 body .content_section .form {
   padding: 3rem 2rem;
   background: grey;
   margin: 2rem 7rem;
+}
+
+body .content_section .form .fas {
+  margin-right: 1.5rem;
 }
 
 body .content_section .form input, body .content_section .form select, body .content_section .form textarea {
