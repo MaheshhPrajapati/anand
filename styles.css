@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #228B22;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.container-fluid {
+  padding: 0 7rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 0;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+body nav {
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 8vh;
+}
+
+body nav .menu {
+  z-index: 2;
+  cursor: pointer;
+}
+
+body nav .menu:hover {
+  color: #228B22;
+}
+
+body nav a h1 {
+  z-index: 2;
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Abril Fatface', cursive;
+}
+
+body .landing {
+  background: rgba(24, 23, 23, 0.75) url("./img/4aaa238694e4baab66f1a854159604b2.jpg") center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 80vh;
+  color: whitesmoke;
+  text-align: center;
+}
+
+body .landing h1 {
+  font-size: 4rem;
+}
+
+body .landing .main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body #nav-links.active {
+  right: 0px;
+}
+
+body #nav-links {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+  list-style: none;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: whitesmoke;
+  right: -110vw;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+body #nav-links ul {
+  margin: 0;
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+body #nav-links ul li {
+  margin-top: 1rem;
+}
+
+body #nav-links ul button {
+  border-radius: 30px;
+  border: none;
+  background: #00AAEE;
+  padding: .5rem 2rem;
+  margin-top: 2rem;
+}
+
+body .content_section {
+  padding: 3rem 0;
+}
+
+body .content_section h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+
+body .content_section .form {
+  padding: 3rem 2rem;
+  background: grey;
+  margin: 2rem 7rem;
+}
+
+body .content_section .form input, body .content_section .form select, body .content_section .form textarea {
+  padding: .8rem 2rem;
+  border-radius: 2px;
+  border: none;
+  margin-top: 1rem;
+}
+
+body .content_section .form textarea {
+  height: 15rem;
+  width: 95%;
+  resize: vertical;
+}
+
+body .content_section .form button {
+  border: none;
+  background-color: #00AAEE;
+  color: whitesmoke;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 1rem;
+}
+
+body .content_section .services-offered {
+  -webkit-box-shadow: 4px 8px 10px #3d3b3b, 4px 8px 10px #2c2929;
+          box-shadow: 4px 8px 10px #3d3b3b, 4px 8px 10px #2c2929;
+  color: #3a3a3a;
+  padding: 4rem 5rem;
+  margin: 2rem 3rem;
+}
+
+body .content_section .services-offered h1 {
+  color: #3a3a3a;
+  font-size: 5.5rem;
+  text-align: left;
+}
+
+body .content_section .services-offered h2 {
+  margin-top: 4rem;
+}
+
+body .content_section .services-offered i {
+  margin-right: 1rem;
+  font-size: 15px;
+  color: #00AAEE;
+}
+
+body .contact_shotcut {
+  padding: 0 7rem;
+  color: whitesmoke;
+  background: #201e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body .contact_shotcut i {
+  margin-top: 2rem;
+}
+
+body .contact_shotcut .fas {
+  font-size: 30px;
+}
+
+body footer {
+  color: whitesmoke;
+  background: #201e1e;
+  line-height: 1.5;
+}
+
+body footer i {
+  margin-right: 1rem;
+}
+
+body .footer {
+  padding: 0 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+  background: #201e1e;
+}
+
+@media only screen and (max-width: 560px) {
+  .container-fluid {
+    padding: 0 2rem;
+  }
+  body nav {
+    padding: 0 2rem;
+  }
+  body .content_section .services-offered h1 {
+    font-size: 2.5rem;
+  }
+  body .content_section .services-offered h2 {
+    font-size: 2rem;
+  }
+  body .contact_shotcut {
+    padding: 0 2rem;
+  }
+  body .contact_shotcut .fas {
+    font-size: 25px;
+  }
+  body .contact_shotcut h1 {
+    font-size: 1.5rem;
+  }
+  body .contact_shotcut p {
+    font-size: 1rem;
+  }
+  body .footer {
+    padding: 0 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
