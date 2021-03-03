@@ -162,6 +162,7 @@ body .content_section .form input, body .content_section .form select, body .con
   border-radius: 2px;
   border: none;
   margin-top: 1rem;
+  width: 100%;
 }
 
 body .content_section .form textarea {
