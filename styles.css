@@ -60,7 +60,6 @@ body nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 8vh;
 }
 
 body nav .menu {
@@ -77,6 +76,55 @@ body nav h1 {
   margin: 0;
   font-size: 2.5rem;
   font-family: 'Abril Fatface', cursive;
+}
+
+body nav.mobile-view {
+  visibility: hidden;
+}
+
+body nav.large-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+}
+
+body nav.large-view h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+body nav.large-view ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+body nav.large-view ul li {
+  margin-left: 2rem;
+}
+
+body nav.large-view ul button {
+  margin-left: 5rem;
+  border-radius: 30px;
+  border: none;
+  background: #00AAEE;
+  padding: .5rem 2rem;
 }
 
 body .landing {
@@ -280,12 +328,25 @@ body .footer {
   background: #201e1e;
 }
 
+@media only screen and (max-width: 1070px) {
+  body nav {
+    min-height: 10vh;
+  }
+  body nav.mobile-view {
+    visibility: visible;
+  }
+  body nav.large-view {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   .container-fluid {
     padding: 0 2rem;
   }
   body nav {
     padding: 0 2rem;
+    min-height: 8vh;
   }
   body .content_section .services-offered h1 {
     font-size: 2.5rem;
