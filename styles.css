@@ -370,6 +370,16 @@ body .footer {
 }
 
 @media only screen and (max-width: 1070px) {
+  body main {
+    padding: 2rem 7rem;
+    font-size: 1.6rem;
+  }
+  body main i {
+    margin-right: .5rem;
+  }
+  body main .fa-phone-alt {
+    margin-left: 2rem;
+  }
   body nav {
     min-height: 10vh;
   }
@@ -384,6 +394,16 @@ body .footer {
 @media only screen and (max-width: 560px) {
   .container-fluid {
     padding: 0 2rem;
+  }
+  body main {
+    padding: 2rem;
+    font-size: 1.4rem;
+  }
+  body main i {
+    margin-right: .5rem;
+  }
+  body main .fa-phone-alt {
+    margin-left: 2rem;
   }
   body nav {
     padding: 0 2rem;
