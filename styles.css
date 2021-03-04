@@ -44,6 +44,30 @@ hr {
   margin-right: 0;
 }
 
+main {
+  background-color: #080529;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 7rem;
+  font-size: 2rem;
+}
+
+main i {
+  margin-right: .5rem;
+}
+
+main .fa-phone-alt {
+  margin-left: 2rem;
+}
+
 body {
   font-family: 'poppins', sans-serif;
 }
@@ -78,6 +102,23 @@ body nav h1 {
   font-family: 'Abril Fatface', cursive;
 }
 
+body .btn {
+  background: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: inherit;
+  margin-left: 2rem;
+  padding: .5rem 1rem;
+}
+
+body .dropdown-item {
+  display: block;
+  border-bottom: 1px dotted blue;
+  font-size: 1.6rem;
+  padding: .5rem;
+}
+
 body nav.mobile-view {
   visibility: hidden;
 }
@@ -92,7 +133,7 @@ body nav.large-view {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 10vh;
+  min-height: 12vh;
 }
 
 body nav.large-view h1 {
@@ -111,7 +152,7 @@ body nav.large-view ul {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 900;
 }
 
@@ -119,7 +160,7 @@ body nav.large-view ul li {
   margin-left: 2rem;
 }
 
-body nav.large-view ul button {
+body nav.large-view ul .btn-quote {
   margin-left: 5rem;
   border-radius: 30px;
   border: none;
